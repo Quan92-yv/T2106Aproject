@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<div class="form"style="width: 24%;height: auto;padding-left: 38%">
+    <h1 STYLE="text-align: center">Đăng ký</h1>
+    <table>
+        <tr style="font-size: 20px"><td style="padding-top: .5em;padding-bottom: .5em;" >Họ và tên:</td><td colspan="2"><input type="text"></td></tr>
+        <tr style="font-size: 20px">
+            <td style="padding-top: .5em;padding-bottom: .5em;" >Giới tính:</td>
+            <td><input name="gender" type="radio" value="Nam">Nam</td>
+            <td><input name="gender" type="radio" value="Nữ">Nữ</td>
+        </tr>
+        <tr style="font-size: 20px"><td style="padding-top: .5em;padding-bottom: .5em;" >Điện thoại:</td><td colspan="2"><input type="text"></td></tr>
+
+        <tr style="font-size: 20px"><td style="padding-top: .5em;padding-bottom: .5em;" >Địa chỉ:</td><td colspan="2"><textarea type="textarea"style="width: 200px;height: 70px"></textarea></td></tr>
+
+        <tr style="font-size: 20px"><td>Quận:</td><td><select><option>-- Chọn Quận --</option></select></td></tr>
+
+        <tr style="font-size: 20px"><td style="padding-top: .5em;padding-bottom: .5em;" >Sở thích:</td></tr>
+        <tr style="font-size: 20px">
+            <td  style="padding-top: .5em;padding-bottom: .5em;" ><input type = "checkbox" name= "sport" value="Tất cả">Tất cả</td>
+            <td><input type="checkbox" name="sport" value="Bóng đá">Bóng đá</td>
+            <td><input type="checkbox" name="sport" value="Đọc sách">Đọc sách</td>
+        </tr>
+        <tr style="font-size: 20px">
+            <td></td>
+            <td  style="padding-top: .5em;padding-bottom: .5em;" ><input type="checkbox" name="sport" value="Xem phim">Xem phim</td>
+            <td><input type="checkbox" name="sport" value="Dã ngoại">Dã ngoại</td>
+        </tr>
+    </table>
+    <div style="text-align: center">
+        <td style="font-size: 20px"><input type="submit" value="Đăng ký"style="width: 70px;height: 22px;border-radius: 5px;font-size: 13px"></td>&ensp;
+        <td style="font-size: 20px"><input type="submit" value="Làm lại"style="width: 70px;height: 22px;border-radius: 5px;font-size: 13px"></td>
+    </div>
+</div>
+<form action="#"style="width: 100%;height: auto;left: auto">
+    <table style="padding: 50px;font-family: sans-serif">
+        <tr>
+            <td style="font-size: 20px">Email</td>
+            <td style="padding: 10px"><input type="text"style="border-radius: 5px;width: 300px;height:40px"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Telephone</td>
+            <td style="padding: 10px"><input type="text"style="border-radius: 5px;width: 300px;height:40px"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Password</td>
+            <td style="padding: 10px"><input type="password"style="border-radius: 5px;width: 300px;height:40px"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px">Confirm Password</td>
+            <td style="padding: 10px"><input type="password"style="border-radius: 5px;width: 300px;height:40px"></td>
+        </tr>
+        <tr>
+            <td style="font-size: 20px"></td>
+            <td style="padding: 10px">
+                <input id="submit" type="submit" value="Sign Up"style="width: 100px;height: 40px;border-radius: 5px;font-size: 18px">
+        </tr>
+        <tr style="height: 30px"></tr>
+        <tr style="font-size: 14px"><td>Textarea</td></tr>
+        <tr><div class="form-group"> <td colspan="2"><textarea type="textarea"style="width: 550px;height: 40px;border-radius: 5px;font-family: sans-serif;padding: 5px 5px" colspan="2" placeholder="Required example textarea"></textarea></td></div></tr>
+        <tr><td style="font-size: 12px">Please enter a message in the textarea</td></tr>
+        <tr><td style="font-size: 15px;padding-top: 5px"><input type="checkbox">Check this checkbox</td></tr>
+        <tr><td style="font-size: 12px">&emsp;&ensp;&nbsp;Example invalid feedback text</td></tr>
+        <tr><td style="font-size: 15px;padding-top: 5px"><input type="radio" value="Toggle this radio"/>Toggle this radio</td></tr>
+        <tr><td style="font-size: 15px"><input type="radio" value="Or toggle this other radio"/>Or toggle this other radio</td></tr>
+        <tr><td style="font-size: 12px">&emsp;&ensp;&nbsp;More example invalid feedback text</td></tr>
+        <tr><td style="padding-top: 10px" colspan="2"><select style="width: 560px;height: 25px;border-radius: 5px"><option >Open this select menu</option></select></td></tr>
+        <tr><td style="font-size: 12px">Example invalid select feedback</td></tr>
+        <tr><td style="padding-top: 10px" colspan="2"><input type="file" name="chose file" style="width: 560px;height: 100%;border-radius: 5px;border: 1px solid #A9A9A9"></td></tr>
+        <tr><td style="font-size: 12px">Example invalid form file feedback</td></tr>
+        <tr><td style="padding-top: 10px"><input type="submit form" value="Submit form" style="width: 90px;height: 25px;text-align: center;color: aliceblue;background-color: #1E90FF;border-radius: 5px;border: #1E90FF"></td></tr>
+    </table>
+</form>
+</body>
+</html>
